@@ -1,0 +1,12 @@
+.logIn {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  width: 90px;
+}
+
+@media (max-width: 1200px) {
+  .signUp {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,21 @@
+.currencyList {
+  display: flex;
+  align-content: center;
+  width: 105px;
+  cursor: pointer;
+
+  .currencyIcon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px !important;
+  }
+
+  :global(.MuiInputBase-root div) {
+    display: flex;
+    align-items: center;
+  }
+
+  :global(.MuiInputBase-root fieldset) {
+    border: none;
+  }
+}
